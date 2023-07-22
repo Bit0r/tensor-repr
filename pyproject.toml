@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tensor_repr"
-version = "0.2.0"
+version = "0.2.1"
 authors = [{ name = "Bit0r", email = "nie_wang@outlook.com" }]
 description = "A library for tensor representation."
 readme = "README.md"

@@ -38,7 +38,7 @@ def get_properties(tensor: torch.Tensor):
         pass
 
     for key, value in properties.items():
-        if isinstance(value, float | complex):
+        if isinstance(value, (float, complex)):
             properties[key] = round(value, 5)
 
     return properties
